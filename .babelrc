@@ -1,8 +1,14 @@
 {
   "presets": [
     ["es2015", {"modules": false}],
+    "es2017",
     "react"
   ],
+  "env": {
+    "test": {
+      "presets": [["es2015"], ["es2017"], "react"]
+    }
+  },
   "plugins": [
     "react-hot-loader/babel",
     "transform-object-rest-spread",

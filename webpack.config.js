@@ -3,6 +3,8 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: [
+        'babel-polyfill',
+        // allows async/await from es-2017 babel preset to work on older browsers
         'react-hot-loader/patch',
         // activate HMR for React
 
