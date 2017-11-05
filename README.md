@@ -12,7 +12,7 @@ React Redux boilerplate built off of [bare-minimum-react-hot-rr4-redux](https://
  * Axios
 
 #### Installation
-After cloning this repo onto your machine, please run the following commands in your terminal to run the app locally:
+After forking/cloning this repo onto your machine, please run the following commands in your terminal to run the app locally:
 ```sh
 $ npm install
 $ npm run dev
