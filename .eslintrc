@@ -1,1 +1,14 @@
-"extends": "airbnb"
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+      "no-underscore-dangle": 0,
+      "jsx-a11y/label-has-for": 0
+    }
+}

@@ -1,13 +1,15 @@
-import { BrowserRouter, Link, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Redirect } from 'react-router-dom';
 import React from 'react';
-import Container from './containers/Container'
+import Container from './containers/Container';
 
-const RootApp = () => (
-  <BrowserRouter>
-    <div>
-      <Route path="/" component={Container} />
-    </div>
-  </BrowserRouter>
-);
+function RootApp() {
+  return (
+    <BrowserRouter>
+      <div>
+        <Route path="/" component={Container} />
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default RootApp;

@@ -14,7 +14,14 @@ class Container extends Component {
   }
 }
 
-const mapStateToProps = state => ({ state: state.reducer });
-const mapDispatchToProps = dispatch => bindActionCreators(actionCreators, dispatch);
+function mapStateToProps(state) {
+  return {
+    state: state.reducer,
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators(actionCreators, dispatch);
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Container);

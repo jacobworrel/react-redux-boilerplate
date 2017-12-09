@@ -2,7 +2,7 @@
 React Redux boilerplate built off of [bare-minimum-react-hot-rr4-redux](https://github.com/nganbread/bare-minimum-react-hot-rr4-redux) by @nganbread.
 #### Notable additions:
   * Jest
-  * ESLint
+  * ESLint (configured with eslint-config-airbnb and eslint-config-prettier)
   * Babel Plugins and Presets:
     1. transform-class-properties
     2. transform-object-rest-spread

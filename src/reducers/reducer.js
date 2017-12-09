@@ -2,7 +2,7 @@ import * as types from './../actions/actionTypes';
 
 const initialState = [];
 
-const reducer = (state = initialState, action) => {
+function reducer(state = initialState, action) {
   switch (action.type) {
     case types.DO_SOMETHING: {
       return ['did something!'];
@@ -10,6 +10,6 @@ const reducer = (state = initialState, action) => {
     default:
       return state;
   }
-};
+}
 
 export default reducer;
